@@ -218,7 +218,7 @@ def mark_attendance(student_name, extracted_names, threshold=0.42):
 
 def main():
     st.set_page_config(page_title="Meet Attendance Tracker", layout="wide")
-    st.title("Google Meet Attendance Tracker")
+    st.title("Attendance Tracker")
     
     # File uploaders
     col1, col2 = st.columns(2)
